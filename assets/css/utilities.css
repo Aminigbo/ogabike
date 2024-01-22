@@ -1,5 +1,7 @@
 /* background-color: #010327*/
 /*************************** start of  smaller screen*******************/
+
+
 @media only screen and (max-width: 918px) {
   .hide-on-mobile {
     display: none !important;
@@ -100,13 +102,13 @@
 
   .site-header ul li a.visit-harvoxx-btn {
     /* border: 1px solid orangered; */
-    color: orangered;
+    color: #d8783e;
     border-radius: 7px;
     left: 20px;
   }
 
   .site-header ul li a.visit-harvoxx-btn:hover {
-    background-color: orangered;
+    background-color: #d8783e;
     color: white;
   }
 
@@ -447,17 +449,21 @@
 
   .site-header .logo-img {
     position: relative;
-    width: 110px;
-    height: auto;
-    top: 12px;
+    /* width: 65px; */
+    /* height: 65px; */
+    /* top: 2px; */
     left: 20px;
+    font-size: 40px;
+    color: #d8783e;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
     /* margin-left: 20px; */
   }
 
   .site-header .logo-text {
     position: relative;
     /* color: #202020; */
-    color: orangered;
+    color: #d8783e;
     font-size: 27px;
     /* margin-top: 80px; */
     top: 10px;
@@ -479,27 +485,27 @@
 
   .site-header ul li a {
     padding: 10px 20px;
-    color: #0d0b7e;
+    color: #d8783e;
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s ease;
   }
 
   .site-header ul li a.visit-harvoxx-btn {
-    border: 1px solid orangered;
-    color: orangered;
+    border: 1px solid #d8783e;
+    color: #d8783e;
     border-radius: 7px;
   }
 
   .site-header ul li a.visit-harvoxx-btn:hover {
-    background-color: orangered;
+    background-color: #d8783e;
     color: white;
   }
 
   .site-header ul li a.invest-btn {
     background-color: white;
     color: #100e85;
-    border: 2px solid #030267;
+    border: 2px solid #d8783e;
     border-radius: 6px;
     padding: 9px 40px;
   }
@@ -638,7 +644,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color: #06052c;
+    color: #d8783e;
     /* padding: 10px; */
     margin-top: 40px;
   }
@@ -653,7 +659,7 @@
     width: 100%;
     font-size: 19px;
     font-weight: bold;
-    color: #06052c;
+    color: #d8783e;
     /* padding: 10px; */
     margin-top: 10px;
     margin-bottom: 10px;
